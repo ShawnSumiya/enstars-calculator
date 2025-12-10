@@ -125,33 +125,60 @@ export function LaborConversion({
       {/* ライト訴求エリア（安心色） */}
       {!laborData.isHighCost && requiredYen > 0 && (
         <div className="mt-4 rounded-lg border-2 border-emerald-300/70 bg-gradient-to-br from-emerald-900/40 via-emerald-800/30 to-emerald-900/40 p-6 shadow-lg ring-1 ring-emerald-300/50">
-          <div className="flex flex-col items-center gap-3 text-center text-emerald-100">
-            <span className="text-lg font-semibold">
-              課金資金の足しに... Amazonギフト券で少しでもお得に！
-            </span>
-            <a
-              href="https://www.amazon.co.jp/dp/B004N3APGO?tag=affiliate-id"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-sky-500 to-emerald-400 px-6 py-3 font-bold text-white shadow-lg transition-all hover:from-sky-600 hover:to-emerald-500 hover:shadow-xl hover:scale-105 active:scale-95"
-            >
-              <span>Amazonギフト券をチェック</span>
-              <svg
-                className="h-5 w-5"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
+          <div className="flex flex-col items-center gap-4 text-center text-emerald-100">
+            <span className="text-lg font-semibold">💡 課金資金を少しでもお得に</span>
+            <p className="text-sm text-emerald-100/90">
+              楽天でギフトコードを購入すると、ポイント分がお得になります。
+            </p>
+            <div className="flex w-full flex-col gap-3">
+              <a
+                href="https://hb.afl.rakuten.co.jp/ichiba/4f1175fa.72c5441e.4f1175fb.217e3186/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fitunes%2Fitunes_2_100%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjQwMHg0MDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex w-full items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-sky-500 to-emerald-400 px-6 py-3 font-bold text-white shadow-lg transition-all hover:from-sky-600 hover:to-emerald-500 hover:shadow-xl hover:scale-105 active:scale-95"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                />
-              </svg>
-            </a>
+                <div className="flex flex-col items-center leading-tight text-center">
+                  <span>🍎 Apple Gift Card</span>
+                  <span className="whitespace-nowrap">(楽天)</span>
+                </div>
+                <svg
+                  className="h-5 w-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://event.rakuten.co.jp/computer/gpgiftcard/?variantId=googleplay-a-10000"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex w-full items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-emerald-500 to-lime-400 px-6 py-3 font-bold text-white shadow-lg transition-all hover:from-emerald-600 hover:to-lime-500 hover:shadow-xl hover:scale-105 active:scale-95"
+              >
+                <span>🤖 Google Play ギフト (楽天)</span>
+                <svg
+                  className="h-5 w-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                  />
+                </svg>
+              </a>
+            </div>
             <p className="text-xs text-emerald-200/80">
-              ※アフィリエイトリンクを含みます。お得情報としてご活用ください。
+              ※必要な金額分だけ(1円単位)購入できます
             </p>
           </div>
         </div>

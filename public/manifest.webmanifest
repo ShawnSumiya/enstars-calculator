@@ -1,0 +1,18 @@
+{
+  "name": "あんスタ計算ツール - あんさんぶるスターズ！！Music",
+  "short_name": "あんスタ計算",
+  "start_url": ".",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "type": "image/png",
+      "sizes": "2048x2048"
+    }
+  ]
+}
+
