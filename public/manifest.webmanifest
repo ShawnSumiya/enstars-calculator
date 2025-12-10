@@ -1,6 +1,6 @@
 {
-  "name": "あんスタ計算ツール - あんさんぶるスターズ！！Music",
-  "short_name": "あんスタ計算",
+  "name": "あんスタ！絶望計算機",
+  "short_name": "あんスタ！絶望計算機",
   "start_url": ".",
   "scope": "/",
   "display": "standalone",
