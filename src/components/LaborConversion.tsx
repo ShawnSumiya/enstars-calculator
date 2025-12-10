@@ -5,18 +5,12 @@ interface LaborConversionProps {
   requiredYen: number
   hourlyWage: number
   onHourlyWageChange: (wage: number) => void
-  type: 'event' | 'gacha'
-  targetCards?: number
-  requiredDiamonds?: number
 }
 
 export function LaborConversion({
   requiredYen,
   hourlyWage,
   onHourlyWageChange,
-  type,
-  targetCards,
-  requiredDiamonds,
 }: LaborConversionProps) {
   const laborData = useMemo(() => {
     const laborHours = requiredYen / hourlyWage

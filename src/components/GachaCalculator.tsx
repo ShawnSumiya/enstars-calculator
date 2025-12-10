@@ -7,7 +7,6 @@ import { ShareButton } from './ShareButton'
 const DIAMONDS_PER_GACHA = 35
 const PICKUP_RATE = 0.01 // 1%
 const CEILING_PULLS = 300 // 天井
-const CEILING_DIAMONDS = CEILING_PULLS * DIAMONDS_PER_GACHA // 10,500ダイヤ
 const DIAMOND_PRICE = 1.5 // ダイヤ1個あたりの金額（円）
 
 export function GachaCalculator() {
@@ -187,14 +186,11 @@ export function GachaCalculator() {
         requiredYen={calculations.requiredYen} 
         hourlyWage={hourlyWage}
         onHourlyWageChange={setHourlyWage}
-        type="gacha"
-        targetCards={targetCards}
       />
 
       {/* SNSシェア */}
       <ShareButton
         type="gacha"
-        requiredYen={calculations.requiredYen}
         laborHours={calculations.requiredYen / hourlyWage}
         targetCards={targetCards}
       />

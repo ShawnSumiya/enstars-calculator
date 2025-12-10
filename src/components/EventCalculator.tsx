@@ -222,18 +222,12 @@ export function EventCalculator() {
         requiredYen={calculations.requiredYen} 
         hourlyWage={hourlyWage}
         onHourlyWageChange={setHourlyWage}
-        type="event"
-        requiredDiamonds={calculations.requiredDiamonds}
       />
 
       {/* SNSシェア */}
       <ShareButton
         type="event"
-        requiredYen={calculations.requiredYen}
         laborHours={calculations.requiredYen / hourlyWage}
-        requiredPlays={calculations.requiredPlays}
-        hours={calculations.hours}
-        minutes={calculations.minutes}
       />
     </div>
   )

@@ -2,24 +2,14 @@ import { Share2 } from 'lucide-react'
 
 interface ShareButtonProps {
   type: 'event' | 'gacha'
-  requiredYen: number
   laborHours: number
   targetCards?: number
-  requiredDiamonds?: number
-  requiredPlays?: number
-  hours?: number
-  minutes?: number
 }
 
 export function ShareButton({
   type,
-  requiredYen,
   laborHours,
   targetCards,
-  requiredDiamonds,
-  requiredPlays,
-  hours,
-  minutes,
 }: ShareButtonProps) {
   const shareText = () => {
     if (type === 'gacha') {
