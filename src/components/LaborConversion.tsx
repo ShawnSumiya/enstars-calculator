@@ -98,7 +98,7 @@ export function LaborConversion({
               </span>
             </div>
             <a
-              href="https://example.com/poi-act"
+              href="https://pc.moppy.jp/entry/invite.php?invite=PUmmA154"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-lg bg-red-600 px-6 py-3 font-bold text-white shadow-lg transition-all hover:bg-red-700 hover:shadow-xl hover:scale-105 active:scale-95"
