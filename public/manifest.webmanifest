@@ -1,6 +1,6 @@
 {
-  "name": "あんスタ！絶望計算機",
-  "short_name": "あんスタ！絶望計算機",
+  "name": "あんスタ！推し活計算機",
+  "short_name": "あんスタ！推し活計算機",
   "start_url": ".",
   "scope": "/",
   "display": "standalone",
